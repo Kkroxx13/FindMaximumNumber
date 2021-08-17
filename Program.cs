@@ -6,7 +6,7 @@ namespace FindMaximumNumberProject
     {
         static void Main(string[] args)
         {
-            int output = MaximumNumberCheck.MaximumIntegerNumber(11, 22, 33);
+            int output = MaximumNumberCheck.MaximumIntegerNumber(10,20,30);
             Console.WriteLine(output);
         }
     }
