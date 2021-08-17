@@ -8,6 +8,10 @@ namespace FindMaximumNumberProject
         {
             int output = MaximumNumberCheck.MaximumIntegerNumber(10,20,30);
             Console.WriteLine(output);
+
+            double outputTwo = MaximumNumberCheck.MaximumFloatNumber(30.5, 30.6, 30.7);
+            Console.WriteLine(outputTwo);
         }
+
     }
 }
